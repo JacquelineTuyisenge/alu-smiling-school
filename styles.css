@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.header {
+  background: url("images/pic_1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav .nav-item a.nav-link:hover {
+  color: #C271FF !important;
+}
+
+.header-content button {
+  background-color: #C271FF;
+}
+
+.header-profiles span {
+  color: #C271FF;
+}/*# sourceMappingURL=styles.css.map */
